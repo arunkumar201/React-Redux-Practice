@@ -1,0 +1,125 @@
+.posts-container {
+	font-family: Arial, sans-serif;
+	width:50%;
+	overflow: scroll;
+}
+
+.main-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	
+}
+
+.title {
+	font-size: 32px;
+	color: #333;
+	margin: 0;
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+}
+
+.button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+	background-color: #555;
+}
+
+.loading {
+	font-size: 18px;
+	color: #333;
+	margin: 20px 0;
+}
+
+.error-container {
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.error-title {
+	font-size: 24px;
+	color: #f00;
+	margin: 0 0 10px 0;
+}
+
+.error-message {
+	font-size: 16px;
+	color: #f00;
+	margin: 0;
+}
+
+.posts-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: scroll;
+		bottom: -8rem;
+		position: relative;
+}
+
+.post-item {
+	margin-bottom: 20px;
+}
+
+.post-title {
+	font-size: 24px;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+
+.post-body {
+	font-size: 16px;
+	color: #666;
+	margin: 0;
+}
+
+.post-user-id {
+	font-size: 14px;
+	color: #999;
+	margin: 5px 0 0 0;
+}
+
+.post-details {
+	margin-top: 20px;
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.post-details-title {
+	font-size: 24px;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+
+.post-details-body {
+	font-size: 16px;
+	color: #666;
+	margin: 0;
+}
+
+.post-details-user-id {
+	font-size: 14px;
+	color: #999;
+	margin: 5px 0 0 0;
+}
